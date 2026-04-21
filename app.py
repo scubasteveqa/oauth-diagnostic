@@ -1,6 +1,6 @@
 from posit import connect
-from shiny import reactive, render, ui
-from shiny.express import input, session
+from shiny import reactive, render
+from shiny.express import input, session, ui
 
 
 ui.page_opts(title="OAuth Credential Diagnostic", fillable=False)
